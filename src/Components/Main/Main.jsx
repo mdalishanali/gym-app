@@ -28,7 +28,7 @@ const styles = css`
     margin: auto;
     text-align: center;
     color: #fff;
-      z-index: 2;
+    z-index: 2;
   }
   @media (max-width:965px){
     .container{

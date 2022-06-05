@@ -5,12 +5,12 @@ export const Menu = ({openMenu}) => {
   return (
     <div css={styles} className={openMenu?"menu":"hidden"}>
         <a href="#home">home</a>
-        <a href="#home">about</a>
-        <a href="#home">pricing</a>
-        <a href="#home">gallery</a>
-        <a href="#home">pages</a>
-        <a href="#home">blog</a>
-        <a href="#home">contact</a>
+        <a href="#about">about</a>
+        <a href="#pricing">pricing</a>
+        <a href="#gallery">gallery</a>
+        <a href="#pages">pages</a>
+        <a href="#blog">blog</a>
+        <a href="#contact">contact</a>
     </div>
   )
 }
@@ -32,7 +32,7 @@ a{
        background: #ff1414;
        width: 100%;
        height: 3px;
-       bottom: -33px;
+       bottom: -13px;
        left: 0;
        opacity: 0;
        transform: opacity 700ms ease-in-out;
