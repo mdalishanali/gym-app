@@ -5,6 +5,7 @@ import { JoinUs } from './Components/JoinUs/JoinUs';
 import { Features } from './Components/Features/Features';
 import { BigOffer } from './Components/BigOffer/BigOffer';
 import { Pricing } from './Components/Pricing/Pricing';
+import { Gallery } from './Components/Gallery/Gallery';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Features/>
       <BigOffer/>
       <Pricing/>
+      <Gallery/>
     </div>
   );
 }
