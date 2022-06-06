@@ -4,6 +4,7 @@ import { Main } from './Components/Main/Main';
 import { JoinUs } from './Components/JoinUs/JoinUs';
 import { Features } from './Components/Features/Features';
 import { BigOffer } from './Components/BigOffer/BigOffer';
+import { Pricing } from './Components/Pricing/Pricing';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <JoinUs/>
       <Features/>
       <BigOffer/>
+      <Pricing/>
     </div>
   );
 }
